@@ -59,19 +59,18 @@ module.exports = {
                 landingPath: '/reset-password-landing'
             }
         },
-        defaultSite: 'RefArchGlobal',
+        defaultSite: 'MarketStreet',
         siteAliases: {
-            RefArch: 'us',
-            RefArchGlobal: 'global'
+            MarketStreet: 'global'
         },
         sites,
         commerceAPI: {
             proxyPath: `/mobify/proxy/api`,
             parameters: {
-                clientId: 'c9c45bfd-0ed3-4aa2-9971-40f88962b836',
-                organizationId: 'f_ecom_zzrf_001',
-                shortCode: '8o7m175y',
-                siteId: 'RefArchGlobal'
+                clientId: '20352618-0086-464d-a8e8-2b978dcd1543',
+                organizationId: 'f_ecom_zymf_014',
+                shortCode: 'sandbox-001',
+                siteId: 'MarketStreet'
             }
             // Optional: Set the domain for auth cookies to share them across subdomains.
             // If not set, cookies default to the current host.
@@ -145,11 +144,11 @@ module.exports = {
         enableHttpOnlySessionCookies: false,
         proxyConfigs: [
             {
-                host: 'kv7kzm78.api.commercecloud.salesforce.com',
+                host: 'sandbox-001.api.commercecloud.salesforce.com',
                 path: 'api'
             },
             {
-                host: 'zzrf-001.dx.commercecloud.salesforce.com',
+                host: 'zymf-014.dx.commercecloud.salesforce.com',
                 path: 'ocapi'
             }
         ]

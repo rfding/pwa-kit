@@ -8,6 +8,20 @@
 // You can also provide alias for your locale. They will be used in place of your locale id when generating paths across the app
 module.exports = [
     {
+        id: 'MarketStreet',
+        l10n: {
+            supportedCurrencies: ['USD'],
+            defaultCurrency: 'USD',
+            defaultLocale: 'en-GB',
+            supportedLocales: [
+                {
+                    id: 'en-GB',
+                    preferredCurrency: 'USD'
+                }
+            ]
+        }
+    },
+    {
         id: 'RefArch',
         l10n: {
             supportedCurrencies: ['USD'],

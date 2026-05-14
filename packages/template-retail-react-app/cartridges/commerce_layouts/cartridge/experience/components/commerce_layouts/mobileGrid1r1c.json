@@ -1,0 +1,13 @@
+{
+    "name": "Mobile Grid 1r 1c",
+    "description": "Single-column layout on all screen sizes (1×1 grid).",
+    "group": "commerce_layouts",
+    "arch_type": "headless",
+    "region_definitions": [
+        {
+            "id": "region1",
+            "name": "Region"
+        }
+    ],
+    "attribute_definition_groups": []
+}

@@ -30,11 +30,17 @@ export function initializeRegistry() {
     registry.registerImporter('commerce_assets.imageAndText', () =>
         import('./assets/image-with-text')
     )
+    registry.registerImporter('commerce_assets.imageTile', () =>
+        import('./assets/image-tile')
+    )
     registry.registerImporter('commerce_assets.productTile', () =>
         import('./assets/image-with-text')
     )
 
     // Commerce Layouts - Layout components
+    registry.registerImporter('commerce_layouts.carousel', () =>
+        import('./layouts/carousel')
+    )
     registry.registerImporter('commerce_layouts.mobileGrid1r1c', () =>
         import('./layouts/mobileGrid1r1c')
     )

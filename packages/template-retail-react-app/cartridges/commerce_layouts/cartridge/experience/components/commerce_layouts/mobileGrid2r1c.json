@@ -1,0 +1,17 @@
+{
+    "name": "Mobile Grid 2r 1c",
+    "description": "2-row 1-column grid on mobile, 1-row 2-column grid on desktop.",
+    "group": "commerce_layouts",
+    "arch_type": "headless",
+    "region_definitions": [
+        {
+            "id": "region1",
+            "name": "Region 1"
+        },
+        {
+            "id": "region2",
+            "name": "Region 2"
+        }
+    ],
+    "attribute_definition_groups": []
+}
